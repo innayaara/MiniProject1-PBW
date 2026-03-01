@@ -71,8 +71,8 @@
 <br>
 
 <div align="center">
-  <img width="1919" height="1010" alt="image" 
-  src="https://github.com/user-attachments/assets/83a3d7d8-2345-4bd8-a5d1-ff6cb8f4b22a" />
+  <img width="1914" height="204" alt="image" 
+  src="https://github.com/user-attachments/assets/d1e9a28b-0c8a-4707-b48e-72342734dbdb" />
 
   <p align="center">
   <b><em>Certificates Section</em></b><br>
@@ -101,6 +101,9 @@
 <div align="center">
   <img width="1919" height="1010" alt="image" 
   src="https://github.com/user-attachments/assets/83a3d7d8-2345-4bd8-a5d1-ff6cb8f4b22a" />
+
+  <img width="1917" height="270" alt="image" 
+  src="https://github.com/user-attachments/assets/647cfa0f-0cad-45b1-b786-fee0b9e8e088" />
 
   <p align="center">
   <b><em>Navbar</em></b><br>
