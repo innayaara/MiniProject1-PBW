@@ -3,8 +3,10 @@
 
 ## ✨ Personal Portfolio Web Application  
 
-Website portofolio statis dengan konsep **clean, professional, dan pink aesthetic**  
-yang menampilkan profil diri, skills, serta certificates.
+Website portofolio statis dengan konsep clean, professional, dan pink aesthetic yang menampilkan profil diri, skills, serta certificates.
+
+🌐 Live Website:
+https://innayaara.github.io/MiniProject1-PBW/
 
 ---
 
