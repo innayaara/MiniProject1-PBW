@@ -32,7 +32,7 @@ serta bantuan Bootstrap 5 dan Vue JS untuk pengelolaan data yang lebih terstrukt
 
 ---
 
-## 🌷 Student Information   
+## 🎀 Information   
 
 | ✨ Nama Lengkap              | 🆔 NIM        | 📚 Kelas                 |
 |------------------------------|---------------|--------------------------|
