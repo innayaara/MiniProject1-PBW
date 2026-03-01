@@ -217,9 +217,15 @@ Menggunakan Bootstrap Card dan Vue v-for untuk menampilkan data sertifikat.
   </div>
 </div>
 ```
-
-<br>
-</details>
+- `col-md-6 col-lg-3`: Menggunakan Grid System Bootstrap untuk mengatur lebar kolom.
+- `mb-4`: Utility class Bootstrap untuk memberikan margin-bottom agar terdapat jarak antar card.
+- `v-for="cert in certificates"`: Directive Vue JS yang digunakan untuk melakukan perulangan (looping) data dari array certificates yang dideklarasikan di dalam data().
+- `card`: Class bawaan Bootstrap untuk membuat komponen card dengan struktur yang sudah terformat.
+- `certificate-card`: Class custom yang dibuat pada style.css untuk menambahkan styling tambahan seperti shadow, border-radius, atau efek hover.
+- `<img :src="cert.image">`: Menggunakan binding Vue (:) untuk mengambil nilai image dari setiap objek cert dalam array certificates.
+- `card-img-top`: Class Bootstrap untuk menempatkan gambar di bagian atas card dengan styling bawaan.
+- `{{ cert.title }}`: Vue Interpolation untuk menampilkan nilai title dari setiap data sertifikat.
+- `{{ cert.desc }}`: Vue Interpolation untuk menampilkan deskripsi sertifikat dari array certificates.
 
 <br>
 </details>
