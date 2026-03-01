@@ -257,4 +257,25 @@ Navbar menggunakan komponen Bootstrap 5 dan responsive collapse.
 
 ---
 
-## Teknologi 
+## Teknologi yang Digunakan
+
+<details>
+<summary><b>1. Home Section</b></summary>
+<br>
+
+Section Home merupakan tampilan pertama yang dilihat oleh pengunjung website. 
+Bagian ini dirancang sebagai hero section dengan layout dua kolom menggunakan 
+Bootstrap Grid System.
+
+- Foto profil berbentuk lingkaran dengan efek shadow dan glow<br>
+- Nama lengkap Indah Maramin Al Inayah dengan highlight warna pink<br>
+- Button Explore More<br>
+- Icon Instagram beserta username<br>
+- Background gradient pink<br>
+- Navbar fixed di bagian atas<br>
+Tampilan dibuat clean dan minimalis untuk memberi kesan profesional serta modern.
+
+<br>
+</details>
+
+
