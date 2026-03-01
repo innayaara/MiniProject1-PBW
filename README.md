@@ -256,3 +256,5 @@ Navbar menggunakan komponen Bootstrap 5 dan responsive collapse.
 </details>
 
 ---
+
+## Teknologi 
