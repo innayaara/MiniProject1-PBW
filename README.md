@@ -17,7 +17,7 @@
   src="https://github.com/user-attachments/assets/98024393-4edc-4fe3-90d1-0120445affe4" />
 
   <p align="center">
-  <b><em>Halaman Utama</em></b><br>
+  <b><em>Home Section</em></b><br>
   Section Home merupakan tampilan pertama yang dilihat oleh pengunjung website. 
   Bagian ini dirancang sebagai hero section dengan layout dua kolom menggunakan 
   Bootstrap Grid System.
@@ -31,6 +31,36 @@
   - Background gradient pink<br>
   - Navbar fixed di bagian atas<br>
   Tampilan dibuat clean dan minimalis untuk memberi kesan profesional serta modern.
+  </p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>2. About Me Section</b></summary>
+<br>
+
+<div align="center">
+  <img width="1919" height="1003" alt="image" 
+  src="https://github.com/user-attachments/assets/f87b79f8-dd33-4afe-b206-7861cc2b9661" />
+
+  
+  <p align="center">
+  <b><em>Abour Me Section</em></b><br>
+  Section About me berisi informasi singkat mengenai profil diri dan pengalaman organisasi.
+
+  <br><br>
+  Elemen yang ditampilkan:
+  <br>
+  - Deskripsi singkat tentang diri<br>
+  - Informasi posisi sebagai Department Relacs>
+  - Daftar skills dalam bentuk progress bar<br>
+  
+  Skills ditampilkan menggunakan progress bar Bootstrap untuk memperlihatkan tingkat kemampuan secara visual. Layout disusun secara rapi dan responsif agar tetap nyaman dilihat di berbagai ukuran layar.
+  </p>:
+  
+  <br>
   </p>
 
 </div>
