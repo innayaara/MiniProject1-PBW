@@ -1,0 +1,237 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fff0f5, #ffe3ec);
+    position: relative;
+    overflow: hidden;
+}
+
+/* decorative shapes */
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+}
+
+.shape-1 {
+    width: 300px;
+    height: 300px;
+    background: #ff8fab;
+    top: -100px;
+    left: -100px;
+}
+
+.shape-2 {
+    width: 400px;
+    height: 400px;
+    background: #ffc2d1;
+    bottom: -80px;
+    right: -80px;
+}
+
+.highlight-text {
+    color: #d63384;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    background: #ffe3ec;
+    color: #d63384;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.photo-wrapper {
+    position: relative;
+    display: inline-block;
+    animation: float 4s ease-in-out infinite;
+}
+
+.photo-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #ff8fab, transparent);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(40px);
+}
+
+.hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0 20px 40px rgba(214, 51, 132, 0.25);
+}
+
+/* floating animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* about */
+.about-section {
+    background: #ffffff;
+}
+
+.about-text {
+    max-width: 750px;
+    margin: auto;
+    color: #555;
+    line-height: 1.8;
+}
+
+.skill-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(214, 51, 132, 0.08);
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(214, 51, 132, 0.15);
+}
+
+.skill-bar {
+    height: 8px;
+    background: #fce4ec;
+    border-radius: 20px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ff8fab, #d63384);
+    border-radius: 20px;
+}
+
+/* my skill */
+.skill-title {
+    color: #d63384;
+    position: relative;
+    display: inline-block;
+}
+
+.skill-title::after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg, #ff8fab, #d63384);
+    display: block;
+    margin: 8px auto 0;
+    border-radius: 10px;
+}  
+
+.display-5 {
+    color: #2d2d2d;
+}
+
+.lead {
+    color: #555;
+}
+
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ff8fab;
+}
+
+.text-pink {
+    color: #d63384;
+}
+
+.bg-pink {
+    background-color: #ff8fab !important;
+}
+
+.bg-light-pink {
+    background-color: #fff5f8;
+}
+
+.btn-pink {
+    background: linear-gradient(45deg, #ff8fab, #d63384);
+    color: white;
+    border-radius: 30px;
+    padding: 12px 30px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-pink:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(214, 51, 132, 0.4);
+}
+
+.progress {
+    height: 8px;
+    border-radius: 20px;
+}
+
+.certificate-card {
+    border: none;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(214, 51, 132, 0.2);
+}
+
+/* icon instagram */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #d63384;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.social-link i {
+    font-size: 18px;
+}
+
+.social-link:hover i {
+    transform: rotate(10deg);
+}
+
+.navbar {
+    transition: all 0.3s ease;
+    padding: 20px 0;
+    background: transparent;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #d63384 !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #ff8fab !important;
+}
+
+.navbar.scrolled {
+    background: white;
+    box-shadow: 0 4px 20px rgba(214, 51, 132, 0.1);
+    padding: 12px 0;
+}
