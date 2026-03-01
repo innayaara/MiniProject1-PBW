@@ -1,4 +1,5 @@
-# 🌸 Mini Project — Portfolio Website  
+# 🩷🎀 Mini Project — Portfolio Website
+
 ---
 
 ## ✨ Personal Portfolio Web Application  
